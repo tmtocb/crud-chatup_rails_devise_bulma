@@ -34,15 +34,24 @@
       </div>
       </div>
 
-    <div id="navbarExample" class="navbar-menu">
-      <div class="navbar-end"></div>
-        <div class="field is-grouped">
-          <p class="control">
-            <%= link_to 'New Tweeet', new_tweeet_path, class: "button is-info is-inverted" %>
-          </p>
-          <p class="control">Sign Up</p>
+      <div id="navbarExample" class="navbar-menu">
+        <div class="navbar-end">
+          <div class="navbar-item">
+          <div class="field is-grouped">
+            <p class="control">
+              <%= link_to 'New Tweeet', new_tweeet_path, class: "button is-info is-inverted" %>
+            </p>
+            <p class="control">
+              <%= link_to 'Sign Up', '#', class: "button is-info" %>
+            </p>
+
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </nav>
+
+
 
 
   </nav>
